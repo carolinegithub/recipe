@@ -1,8 +1,15 @@
+.body,ul,ol,li,h1,h2,h3,h4{
+	font-family: sans-serif;
+}
+
 .recipe{
 	position: center;
 
 }
 
+ul,ol{
+	cursor: pointer; 
+}
 .chicken img{
   margin: 10px;
   padding: 10px;
@@ -10,6 +17,20 @@
   width: 200px;
   }
 
+ .bought{
+ 	background-color: green;
+ 	color: white;
+ }
+
+ .list{
+ 	background-color: #ddd;
+ 	color: #000;
+ }
+
+ ul{
+ 	list-style: none;
+ }
+ 
  .chicken:hover {
   -webkit-transform: rotate(50deg); }
 
